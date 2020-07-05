@@ -1,0 +1,27 @@
+{
+    "name":"M5StickV_eSpeak",
+    "description":"speak-ng library for M5StickV",
+    "keywords":"speech",
+    "authors":
+    {
+      "name": "fukuen",
+      "maintainer": true
+    },
+    "repository":
+    {
+      "type": "git",
+      "url": "https://github.com/fukuen/M5StickV_eSpeak"
+    },
+    "version": "0.0.1",
+    "license": "GPL",
+    "frameworks": "arduino",
+    "build": {
+      "flags": [
+          "-Wno-format-truncation",
+          "-Wno-format-overflow",
+          "-Isrc/compat",
+          "-Isrc/espeak"
+      ]
+    }
+  }
+  
